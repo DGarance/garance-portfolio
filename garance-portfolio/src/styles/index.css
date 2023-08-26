@@ -6,16 +6,51 @@
 
 @layer base {
   body {
-    @apply bg-primary-50 text-primary-950;
+    @apply bg-primary-50 text-primary-950 dark:text-primary-50;
   }
-  .section-title {
-    @apply text-xl;
+  section {
+    @apply bg-primary-50 dark:bg-primary-950 px-4;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span {
+    @apply text-primary-950 dark:text-primary-50;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display font-bold text-3xl lg:text-5xl tracking-tight;
   }
 }
-
-/*CSS Components*/
+/*CSS components*/
 @layer components {
-  /*Button*/
+  /*Navbar*/
+  .navbar {
+    @apply bg-primary-100 border-gray-200 dark:bg-primary-400 shadow fixed top-0 w-full z-50 lg:flex lg:justify-around;
+  }
+  .navbar-brand {
+    @apply text-xl font-semibold font-display;
+  }
+  .navbar-button {
+    @apply flex items-center px-3 py-2 rounded text-primary-950 hover:text-primary-700 dark:text-white;
+  }
+  .navbar-links {
+    @apply text-center lg:text-left text-sm lg:flex-grow lg:flex lg:justify-center dark:text-primary-50;
+  }
+  .navbar-link {
+    @apply block mt-4 lg:inline-block lg:mt-0 text-primary-950 dark:text-primary-50 lg:mr-4;
+  }
+  .navbar-toggle {
+    @apply w-full lg:flex lg:items-center lg:w-auto;
+  }
   .btn-hover {
     @apply inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center rounded-lg  hover:bg-primary-400 focus:ring-4 focus:ring-primary-900 dark:text-white;
   }
@@ -28,27 +63,142 @@
   .btn-icon {
     @apply w-5 h-5 ml-2 -mr-1;
   }
-  /*Card*/
-  /*Navbar*/
-  .navbar {
-    @apply bg-primary-100 border-primary-950 dark:bg-primary-400 shadow fixed top-0 w-full z-50 lg:flex lg:justify-around;
+  .icon-color {
+    @apply inline-flex justify-center items-center mx-1.5 dark:hover:text-primary-800 text-primary-400 transition-colors duration-300 transform dark:text-primary-50 hover:text-primary-500;
   }
-  .navbar-brand {
-    @apply text-xl font-semibold font-display;
+  .hero-section {
+    @apply pt-24 mx-auto px-4 items-center lg:flex md:px-8 text-center;
   }
-  .navbar-btn {
-    @apply flex items-center px-3 py-2 rounded text-primary-950;
+  .hero-container {
+    @apply space-y-1 flex-1 text-center sm:text-center;
   }
-  .navbar-links {
-    @apply text-center lg:text-left text-sm lg:flex-grow lg:justify-center dark:text-primary-50;
+  .hero-img {
+    @apply w-96 h-96 mx-auto sm:w-10/12;
   }
-  .navbar-link {
-    @apply block mt-4 lg:inline-block lg:mt-0 text-primary-950 dark:text-primary-50 lg:mr-4;
+  .hero-btn-container {
+    @apply pt-4;
   }
-  .navbar-toggle {
-    @apply w-full lg:flex lg:items-center lg:w-auto;
+  /*Progress Circle*/
+  .progress-circle-container {
+    @apply flex items-center;
   }
-  .navbar-icon {
-    @apply w-6 h-6 self-center;
+
+  .progress-circle {
+    @apply relative w-32 h-32;
+  }
+
+  .progress-circle-svg {
+    @apply absolute w-full h-full;
+  }
+
+  .progress-circle-bg {
+    @apply text-primary-100;
+  }
+
+  .progress-circle-fg {
+    @apply text-primary-800;
+  }
+
+  .progress-circle-icon {
+    @apply mr-2;
+  }
+
+  .progress-circle-text {
+    @apply ml-2 text-lg font-medium text-primary-950 dark:text-primary-50;
+  }
+
+  .card {
+    @apply w-96 h-96 rounded-lg p-6 bg-white relative flex items-end transition-transform ease-out duration-300 shadow-lg;
+
+    &:before {
+      @apply absolute top-0 left-0 block w-full h-full rounded-lg bg-black bg-opacity-60 z-10 transition-opacity duration-500 opacity-0;
+    }
+
+    &:hover {
+      @apply transform translate-y-2;
+
+      &:before {
+        @apply opacity-100;
+      }
+
+      .info {
+        @apply opacity-100 translate-y-0;
+      }
+    }
+  }
+
+  /* Card */
+  .card-wrapper {
+    @apply max-w-sm flex flex-col justify-between bg-primary-50 border border-primary-200 rounded-lg shadow dark:bg-primary-600 dark:border-primary-900 w-full h-full;
+  }
+  .card-image {
+    @apply rounded-t-lg;
+  }
+  .card-title {
+    @apply text-2xl font-semibold underline text-primary-950 dark:text-primary-50;
+  }
+  .card-subtitle {
+    @apply mt-1 text-base  text-primary-950 dark:text-primary-50;
+  }
+  .card-description {
+    @apply -mt-8 text-center font-normal text-primary-950 dark:text-primary-50;
+  }
+  .button-container {
+    @apply flex justify-center items-center py-3;
+  }
+  /*Card Intro*/
+  .cta-container {
+    @apply container flex flex-col items-center py-12 mx-auto text-center;
+  }
+  /* Portfolio */
+  .portfolio-section {
+    @apply bg-primary-50 dark:bg-primary-900;
+  }
+  .portfolio-title {
+    @apply text-2xl font-semibold leading-10 text-primary-800 lg:text-3xl dark:text-primary-50;
+  }
+  .portfolio-container {
+    @apply container px-6 py-12 mx-auto;
+  }
+  .portfolio-grid {
+    @apply mt-8 xl:mt-16 lg:flex;
+  }
+  .portfolio-item {
+    @apply grid grid-cols-1 gap-28 md:grid-cols-2 xl:grid-cols-3;
+  }
+
+  /*Form*/
+  .form-label {
+    @apply block mb-2 text-sm;
+  }
+  .form-input {
+    @apply block w-full px-5 py-3 mt-2 bg-white border border-primary-200 rounded-md dark:placeholder-primary-50 dark:bg-primary-500 dark:text-primary-50 dark:border-primary-400 focus:border-primary-400 dark:focus:border-primary-50 focus:ring-primary-50 focus:outline-none focus:ring-opacity-40;
+  }
+  .form-textarea {
+    @apply block w-full h-32 px-5 py-3 mt-2 bg-white border border-gray-200 rounded-md dark:placeholder-primary-50 dark:bg-primary-500 dark:text-primary-50 dark:border-primary-400 focus:border-primary-400 dark:focus:border-primary-50 focus:ring-primary-50 focus:outline-none focus:ring focus:ring-opacity-40;
+  }
+  .form-submit {
+    @apply btn-contact;
+  }
+  .tag {
+    @apply inline-flex items-center mr-2 rounded-md bg-primary-50 px-4 py-3 text-xs font-medium text-primary-950 ring-1 ring-inset ring-primary-500/10 dark:bg-primary-400 dark:text-primary-50;
+  }
+
+  /*Footer*/
+  .footer {
+    @apply mt-auto w-full py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-primary-100 dark:bg-primary-400;
+  }
+  .footer-link {
+    @apply flex-none text-xl font-semibold text-primary-950 dark:text-primary-50;
+  }
+  .footer-email {
+    @apply text-primary-950 mb-4 dark:text-primary-50;
+  }
+  .footer-copyright {
+    @apply text-sm text-center text-primary-950 dark:text-primary-50;
+  }
+
+  .progress-circle-icon {
+    @apply w-8 h-8;
   }
 }

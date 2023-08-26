@@ -6,7 +6,7 @@ import profil from "../../assets/Garance-profil.jpg";
 
 export default function About() {
   return (
-    <section className="py-20 min-h-screen bg-martinique-50 dark:bg-martinique-950 flex flex-col justify-center items-center">
+    <section className="py-20 min-h-screen bg-primary-50 dark:bg-primary-950 flex flex-col justify-center items-center">
       <h2 className="text-center py-10">À propos de moi</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-screen-xl px-6 md:px-12 mx-auto">
         <img

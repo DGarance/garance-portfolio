@@ -1,16 +1,16 @@
 import React from "react";
-import { CTA, Hero, Intro, Skills } from "../../section";
+import { Hero, Intro, Skills, CTA } from "../../section";
 
-export default function Home() {
+export default function Home({ darkMode }) {
   return (
     <section>
-      {/*Hero Section*/}
-      <Hero />
-      {/*Intro Section*/}
+      {/* Hero Section */}
+      <Hero darkMode={darkMode} />
+      {/* Présentation*/}
       <Intro />
-      {/*Skills Section*/}
-      <Skills />
-      {/*CTA Section*/}
+      {/* Compétences*/}
+      <Skills darkMode={darkMode} />
+      {/* Call to Action */}
       <CTA />
     </section>
   );
