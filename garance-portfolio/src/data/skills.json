@@ -1,0 +1,68 @@
+[
+  {
+    "name": "HTML",
+    "percentage": 90,
+    "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/html5.svg",
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/html5.svg"
+  },
+  {
+    "name": "CSS",
+    "percentage": 90,
+    "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/css3.svg",
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/css3.svg"
+  },
+  {
+    "name": "SASS",
+    "percentage": 80,
+    "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/sass.svg",
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/sass.svg"
+  },
+  {
+    "name": "JavaScript",
+    "percentage": 70,
+    "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/javascript.svg",
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/javascript.svg"
+  },
+  {
+    "name": "Bootstrap",
+    "percentage": 50,
+    "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/bootstrap.svg",
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/bootstrap.svg"
+  },
+  {
+    "name": "React",
+    "percentage": 50,
+    "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/reactjs.svg",
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/reactjs.svg"
+  },
+  {
+    "name": "NodeJS",
+    "percentage": 60,
+    "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/nodejs.svg",
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/node-js-svgrepo-com.svg"
+  },
+  {
+    "name": "Express",
+    "percentage": 60,
+    "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/express.svg",
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/express.svg"
+  },
+  {
+    "name": "MongoDB",
+    "percentage": 60,
+    "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/mongodb.svg",
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/mongodb.svg"
+  },
+  {
+    "name": "Git/Github",
+    "percentage": 75,
+    "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/git.svg",
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/git.svg"
+  },
+  {
+    "name": "TailwindCSS",
+    "percentage": 75,
+    "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/tailwindcss.svg",
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/tailwindcss.svg"
+  }
+]

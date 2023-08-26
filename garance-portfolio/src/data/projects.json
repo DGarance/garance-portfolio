@@ -1,0 +1,100 @@
+[
+  {
+    "id": "aa744e07-c157-47e0-8520-51df1fac7213",
+    "title": "Booki",
+    "subtitle": "OpenClassrooms",
+    "description": "Intégration de maquette de site web avec HTML/CSS, en respectant la mise en page et en rendant l'interface responsive.",
+    "cover": "https://tailwind-css.s3.eu-west-3.amazonaws.com/mockup/Booki.png",
+    "brand": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Brand/Booki.png",
+    "github": "https://github.com/DGarance/Projet-2",
+    "live": "https://dgarance.github.io/Projet-2/",
+    "tags": ["HTML5", "CSS3"],
+    "contexte": "Premier stage en tant que développeur web chez Booki, entreprise de planification de vacances.",
+    "apprentissage": "Intégrer l'interface du site avec HTML et CSS, en collaboration avec l'UI designer.",
+    "competences": ["Intégration web", "Responsive design", "Code sémantique", "Structuration CSS"],
+    "bilan": "Ce projet m'a permis de mettre en pratique mes compétences en HTML et CSS, en réalisant une intégration conforme aux maquettes et en créant une mise en page responsive. J'ai également appris l'importance du code sémantique et de la validation du code."
+  },
+
+  {
+    "id": "f412b333-50d7-4c41-9b54-e8dd64b6d165",
+    "title": "Ohmyfood",
+    "subtitle": "OpenClassrooms",
+    "description": "Animation d'une page web avec des effets graphiques avancés en utilisant des outils de gestion de versions pour l'hébergement et le suivi du projet.",
+    "cover": "https://tailwind-css.s3.eu-west-3.amazonaws.com/mockup/OhMyFood.png",
+    "brand": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Brand/OhMyfood.png",
+    "github": "https://github.com/DGarance/Projet-3",
+    "live": "https://dgarance.github.io/Projet-3/",
+    "tags": ["HTML5", "SASS", "GIT"],
+    "contexte": "Ce projet consiste à développer un site 'mobile first' pour la startup Ohmyfood, afin de répertorier les menus de restaurants gastronomiques à Paris.",
+    "apprentissage": "Développer des animations CSS avancées, créer une navigation cohérente, assurer la cohérence graphique du site.",
+    "competences": ["Animations CSS", "Responsive design", "Gestion de versions"],
+    "bilan": "Ce projet m'a permis de développer des compétences avancées en CSS et en animation pour rendre le site attrayant et dynamique."
+  },
+
+  {
+    "id": "da3e11f9-5bd8-475e-8f20-09b95596d199",
+    "title": "La Panthère",
+    "subtitle": "OpenClassrooms",
+    "description": "Optimisation d'un site web existant pour garantir l'accessibilité, le référencement, la vitesse et la maintenabilité du code HTML/CSS.",
+    "cover": "https://tailwind-css.s3.eu-west-3.amazonaws.com/mockup/LaPanthere.png",
+    "brand": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Brand/LaPanthere.png",
+    "github": "https://github.com/DGarance/Projet-4",
+    "live": "https://dgarance.github.io/Projet-4/",
+    "tags": ["HTML5", "CSS3", "SEO", "ACCESSIBILITE"],
+    "contexte": "Ce projet consiste à optimiser le site web de l'agence La Panthère pour améliorer le référencement, l'accessibilité et les performances.",
+    "apprentissage": "Appliquer des bonnes pratiques en développement web, optimiser la vitesse de chargement, améliorer l'accessibilité.",
+    "competences": ["Optimisation web", "Référencement", "Accessibilité"],
+    "bilan": "Ce projet m'a permis de développer des compétences en optimisation web, en référencement et en accessibilité, tout en améliorant mon écriture de code."
+  },
+
+  {
+    "id": "8733a25b-c749-47a4-8dca-9b85bcb3f63b",
+    "title": "Kanap",
+    "subtitle": "OpenClassrooms",
+    "description": "Développement d'un site e-commerce en JavaScript, en gérant les tests, la validation des données, l'interaction avec des services web et les événements JavaScript.",
+    "cover": "https://tailwind-css.s3.eu-west-3.amazonaws.com/mockup/Kanap.png",
+    "brand": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Brand/Kanap.png",
+    "github": "https://github.com/DGarance/Projet-5",
+    "live": "https://dgarance.github.io/Projet-5/",
+    "tags": ["JAVASCRIPT"],
+    "contexte": "Ce projet consiste à construire un site e-commerce pour la marque de canapés Kanap, en intégrant dynamiquement les données de l'API et en mettant en place un plan de test d'acceptation.",
+    "apprentissage": "Utiliser JavaScript pour intégrer des données d'une API, mettre en place un plan de test d'acceptation, améliorer la gestion des événements et la manipulation du DOM en JavaScript.",
+    "competences": ["Intégration JavaScript", "Test d'acceptation", "Manipulation du DOM", "Gestion des événements"],
+    "bilan": "Ce projet m'a permis de développer des compétences avancées en JavaScript pour créer un site e-commerce fonctionnel avec interaction dynamique et tests d'acceptation."
+  },
+  {
+    "id": "a134b45c-9a4e-4bad-a1d8-7d6311f8fda6",
+    "title": "Hot Takes API",
+    "subtitle": "OpenClassrooms",
+    "description": "Création d'une API sécurisée pour une application d'avis gastronomiques, en implémentant des opérations CRUD sécurisées, un modèle logique de données conforme à la réglementation et un stockage de données sécurisé.",
+    "cover": "https://tailwind-css.s3.eu-west-3.amazonaws.com/mockup/Piiquante.png",
+    "brand": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Brand/Piiquante.png",
+    "github": "https://github.com/DGarance/Projet-6",
+    "live": "https://dgarance.github.io/Projet-6/",
+    "tags": ["NODEJS", "EXPRESS", "MONGODB", "MONGOOSE", "JAVASCRIPT", "API", "SECURITE"],
+    "contexte": "Ce projet vise à créer une API sécurisée pour l'application 'Hot Takes', permettant aux utilisateurs de partager des avis sur des sauces piquantes tout en garantissant la sécurité des données.",
+    "apprentissage": "Mettre en pratique les opérations CRUD sécurisées, concevoir un modèle de données conforme, assurer un stockage sécurisé des données.",
+    "competences": [
+      "Opérations CRUD sécurisées",
+      "Modèle de données conforme",
+      "Stockage sécurisé des données",
+      "Sécurité de l'API"
+    ],
+    "bilan": "Ce projet m'a permis de développer des compétences en développement back-end, en sécurité des données et en conception d'API sécurisée pour des applications interactives."
+  },
+
+  {
+    "id": "c789ed01-d2b3-4f70-bc9e-9922e4231d20",
+    "title": "Kasa App",
+    "subtitle": "OpenClassrooms",
+    "description": "Création d'une application web de location immobilière avec React, en respectant les maquettes Figma et en développant des éléments d'interface grâce à des composants React.",
+    "cover": "https://tailwind-css.s3.eu-west-3.amazonaws.com/mockup/Kasa.png",
+    "brand": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Brand/Kasa.png",
+    "github": "https://github.com/DGarance/Projet-7",
+    "tags": ["REACT", "JAVASCRIPT", "REACT ROUTER", "FRONT-END", "APPLICATION WEB"],
+    "contexte": "Ce projet consiste à développer une application web de location immobilière pour Kasa en utilisant React et en suivant les maquettes Figma et les consignes fonctionnelles.",
+    "apprentissage": "Utiliser React pour développer des éléments d'interface, configurer la navigation avec React Router et suivre les maquettes Figma.",
+    "competences": ["Création d'éléments d'interface en React", "Configuration de la navigation avec React Router"],
+    "bilan": "Ce projet m'a permis de renforcer mes compétences en développement front-end avec React et de créer une application web de location immobilière interactive et conforme aux maquettes."
+  }
+]
