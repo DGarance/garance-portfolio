@@ -4,8 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        display: ["Playfair Display", "serif"],
-        body: ["Montserrat", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
       },
       colors: {
         primary: {

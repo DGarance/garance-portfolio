@@ -23,7 +23,7 @@ export default function Card({ cover, title, subtitle, description, item }) {
           to={item}
           color="transparent"
           text="En savoir plus"
-          icon={<FaArrowRight className="w-5 h-5 ml-2 -mr-1" />}
+          icon={<FaArrowRight className="btn-icon" />}
         />
       </div>
     </div>

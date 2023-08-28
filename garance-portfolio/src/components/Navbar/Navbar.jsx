@@ -35,7 +35,7 @@ export default function Navbar(props) {
       <div className={`navbar-toggle ${isOpen ? "block" : "hidden"} lg:flex lg:items-center lg:w-auto `}>
         <div className="navbar-links">
           <Link
-            to="/home"
+            to="/"
             className="navbar-link">
             Accueil
           </Link>

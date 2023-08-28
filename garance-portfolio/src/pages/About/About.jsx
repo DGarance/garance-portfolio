@@ -1,21 +1,20 @@
 import React from "react";
 import { FaAward, FaUserGraduate, FaRegFileCode } from "react-icons/fa";
-import { Link } from "react-router-dom";
-import { CardIntro } from "../../components";
+import { CardIntro, Button } from "../../components";
 import profil from "../../assets/Garance-profil.jpg";
 
 export default function About() {
   return (
-    <section className="py-20 min-h-screen bg-primary-50 dark:bg-primary-950 flex flex-col justify-center items-center">
-      <h2 className="text-center py-10">À propos de moi</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-screen-xl px-6 md:px-12 mx-auto">
+    <section className="about-section">
+      <h2 className="about-title">À propos de moi</h2>
+      <div className="about-container">
         <img
-          className="w-96 h-auto md:max-h-full rounded-lg mx-auto"
+          className="about-img"
           src={profil}
           alt="Garance"
         />
-        <div className="text-center md:text-left">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mb-4 ">
+        <div className="flex flex-col">
+          <div className="about-box-grid">
             <CardIntro
               icon={<FaAward />}
               title="Formation"
@@ -32,7 +31,7 @@ export default function About() {
               subtitle="OpenClassrooms"
             />
           </div>
-          <p className="mb-4">
+          <p className="my-8">
             Bonjour 👋 ! Je suis Garance Defrel, récemment diplômée en développement web Fullstack 🎉 et en quête
             d'opportunités pour approfondir mes compétences.
             <br />
@@ -42,11 +41,12 @@ export default function About() {
             Attirée par le développement front-end, j'adore donner vie aux maquettes en design UI/UX et les coder pour
             voir concrètement le résultat de mon travail.
           </p>
-          <Link
-            to="/contact"
-            className="btn-contact">
-            Me contacter
-          </Link>
+          <Button
+          to="/contact"
+          color="transparent"
+          text="Me contacter">
+
+          </Button>
         </div>
       </div>
     </section>
