@@ -93,8 +93,8 @@
   .skills-display {
     @apply flex justify-center;
   }
-  .skills-grid{
-    @apply md:grid md:grid-cols-2 lg:grid-cols-3 gap-3
+  .skills-grid {
+    @apply md:grid md:grid-cols-2 lg:grid-cols-3 gap-3;
   }
   /*Contact Page*/
   .contact-container {
@@ -133,20 +133,14 @@
   }
 
   /*About Section*/
-  .about-section {
-    @apply py-20 min-h-screen px-4 md:px-0;
-  }
-  .about-title {
-    @apply text-center pb-10;
-  }
   .about-container {
     @apply grid grid-cols-1 gap-5 items-center max-w-screen-xl px-6 mx-auto lg:grid-cols-2 md:px-12 w-full;
   }
   .about-img {
     @apply w-96 h-auto rounded-lg mx-auto md:max-h-full;
   }
-  .about-data {
-    @apply md:text-left;
+  .about-text {
+    @apply my-4 text-justify;
   }
   .about-box-grid {
     @apply grid grid-cols-1 md:grid-cols-3 gap-2 mb-8;
