@@ -13,7 +13,7 @@ export default function About() {
           src={profil}
           alt="Garance"
         />
-        <div className="flex flex-col">
+        <div className="">
           <div className="about-box-grid">
             <CardIntro
               icon={<FaAward />}
@@ -31,22 +31,34 @@ export default function About() {
               subtitle="OpenClassrooms"
             />
           </div>
-          <p className="my-8">
-            Bonjour 👋 ! Je suis Garance Defrel, récemment diplômée en développement web Fullstack 🎉 et en quête
-            d'opportunités pour approfondir mes compétences.
-            <br />
-            Au-delà de mes compétences solides en HTML, CSS et JavaScript, je me spécialise actuellement dans le
-            framework ReactJS pour créer des interfaces utilisateur dynamiques et modernes.
-            <br />
-            Attirée par le développement front-end, j'adore donner vie aux maquettes en design UI/UX et les coder pour
-            voir concrètement le résultat de mon travail.
+          <p className="my-4">
+            Bonjour ! 👋
+            <br /> Je suis Garance Defrel, <strong>développeuse web fullstack</strong>, actuellement en recherche
+            d'alternance avec la <strong>Digital School of Paris</strong>.
           </p>
-          <Button
-          to="/contact"
-          color="transparent"
-          text="Me contacter">
+          <p className="my-4">
+            Grâce à ma formation auprès d'OpenClassrooms, j'ai développé une forte attirance pour le{" "}
+            <strong>front-end</strong> : j'aime tout particulièrement traduire en code des maquettes UI/UX et voir leur
+            design prendre vie.
+          </p>
 
-          </Button>
+          <p className="my-4">
+            Au-delà de mes compétences solides en HTML, CSS et JavaScript, je me spécialise actuellement dans le
+            framework <strong>ReactJS</strong> pour créer des interfaces utilisateur dynamiques et modernes.
+          </p>
+          <div className="flex">
+            <Button
+              to="/contact"
+              color="transparent"
+              text="Me contacter"
+              className="mb-6"
+            />
+            <Button
+              to="/contact"
+              color="hover"
+              text="Mon CV"
+            />
+          </div>
         </div>
       </div>
     </section>

@@ -12,7 +12,7 @@ export default function CTA() {
             className="btn-transparent"
             to="/portfolio"
             color="transparent"
-            text="Mon Portfolio"
+            text="Mon portfolio"
           />
           <Button
             to="/contact"

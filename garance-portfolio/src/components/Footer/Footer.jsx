@@ -15,7 +15,7 @@ export default function Footer() {
         </div>
         <div className="mt-4">
           <p className="footer-email">garance.defrel@outlook.com</p>
-          <p className="footer-copyright"> © 2023 Copyright Garance Defrel. Tous droit réservés.</p>
+          <p className="footer-copyright"> © 2023 Copyright Garance Defrel. Tous droits réservés.</p>
         </div>
         <div className="mt-3 space-x-2">
           <Link

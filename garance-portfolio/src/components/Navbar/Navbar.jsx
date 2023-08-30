@@ -42,7 +42,7 @@ export default function Navbar(props) {
           <Link
             to="/about"
             className="navbar-link">
-            A Propos de moi
+            A propos de moi
           </Link>
           <Link
             to="/portfolio"

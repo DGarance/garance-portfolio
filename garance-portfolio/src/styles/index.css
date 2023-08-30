@@ -35,7 +35,7 @@
 @layer components {
   /*Navbar*/
   .navbar {
-    @apply bg-primary-100 border-gray-200 dark:bg-primary-400 shadow fixed top-0 w-full z-50 lg:flex lg:justify-around;
+    @apply bg-primary-100 border-gray-200 dark:bg-primary-600 shadow fixed top-0 w-full z-50 lg:flex lg:justify-around;
   }
   .navbar-brand {
     @apply text-xl font-semibold;
@@ -55,7 +55,7 @@
 
   /*Button*/
   .btn-hover {
-    @apply inline-flex items-center justify-center px-5 py-3 mr-3 font-medium text-center rounded-lg bg-primary-400  hover:bg-primary-300 focus:ring-4 focus:ring-primary-900 dark:text-primary-50;
+    @apply inline-flex items-center justify-center px-5 py-3 mr-3 font-medium text-center rounded-lg bg-primary-400 dark:bg-primary-600 hover:bg-primary-300 focus:ring-4 focus:ring-primary-900 dark:text-primary-50;
   }
   .btn-transparent {
     @apply inline-flex items-center justify-center px-5 py-3 mr-3 font-medium text-center rounded-lg text-primary-900 border border-primary-400  hover:bg-primary-400 focus:ring-4 focus:ring-primary-100 dark:text-white dark:border-primary-700 dark:hover:bg-primary-400 dark:focus:ring-primary-800;
@@ -106,11 +106,11 @@
   }
 
   .progress-circle-bg {
-    @apply text-primary-100;
+    @apply text-primary-100 ;
   }
 
   .progress-circle-fg {
-    @apply text-primary-800;
+    @apply text-primary-800 dark:text-primary-600;
   }
 
   .progress-circle-icon {
@@ -123,13 +123,13 @@
 
   /*About Section*/
   .about-section {
-    @apply py-20 min-h-screen;
+    @apply py-20 min-h-screen px-4 md:px-0;
   }
   .about-title {
     @apply text-center pb-10;
   }
   .about-container {
-    @apply grid grid-cols-1 gap-5 items-center max-w-screen-xl px-6 mx-auto md:grid-cols-2 md:px-12 w-full;
+    @apply grid grid-cols-1 gap-5 items-center max-w-screen-xl px-6 mx-auto lg:grid-cols-2 md:px-12 w-full;
   }
   .about-img {
     @apply w-96 h-auto rounded-lg mx-auto md:max-h-full;
@@ -206,7 +206,7 @@
 
   /*Footer*/
   .footer {
-    @apply mt-auto w-full py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-primary-100 dark:bg-primary-400;
+    @apply mt-auto w-full py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-primary-100 dark:bg-primary-600;
   }
   .footer-link {
     @apply flex-none text-xl font-semibold text-primary-950 dark:text-primary-50;

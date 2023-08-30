@@ -9,11 +9,11 @@ export default function Hero({ darkMode }) {
   return (
     <section className="hero-section">
       <div className="hero-container">
-        <p>Bonjour 👋! je suis</p>
-        <p>Garance Defrel,</p>
+        <p>Bonjour 👋! Je suis Garance Defrel</p>
+
         <h1>
           Développeuse Web
-          <span className="text-martinique-400 dark:text-martinique-400"> Fullstack</span>
+          <span className="text-primary-600 dark:text-primary-400"> Fullstack</span>
         </h1>
         <p>En quête de nouvelles opportunités en développement Front-end</p>
         <div>
@@ -35,7 +35,7 @@ export default function Hero({ darkMode }) {
             className="btn-transparent"
             to="/portfolio"
             color="transparent"
-            text="Mon Portfolio"
+            text="Mon portfolio"
           />
         </div>
       </div>
