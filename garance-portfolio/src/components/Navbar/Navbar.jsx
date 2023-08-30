@@ -10,7 +10,7 @@ export default function Navbar(props) {
     <nav className="navbar">
       <div className="flex justify-between items-center px-4 py-3">
         <div className="flex items-center">
-          <span className="navbar-brand">Garance Defrel</span>
+          <p className="navbar-brand">Garance Defrel</p>
         </div>
         <div className="lg:hidden">
           <button

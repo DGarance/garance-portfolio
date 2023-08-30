@@ -1,5 +1,6 @@
 import React from "react";
-import { FaAward, FaUserGraduate, FaRegFileCode } from "react-icons/fa";
+import { FaAward, FaUserGraduate, FaRegFileCode} from "react-icons/fa";
+import { FiDownload } from "react-icons/fi"; 
 import { CardIntro, Button } from "../../components";
 import profil from "../../assets/Garance-profil.jpg";
 
@@ -31,18 +32,18 @@ export default function About() {
               subtitle="OpenClassrooms"
             />
           </div>
-          <p className="my-4">
+          <p className="my-4 text-justify">
             Bonjour ! 👋
             <br /> Je suis Garance Defrel, <strong>développeuse web fullstack</strong>, actuellement en recherche
             d'alternance avec la <strong>Digital School of Paris</strong>.
           </p>
-          <p className="my-4">
+          <p className="my-4 text-justify">
             Grâce à ma formation auprès d'OpenClassrooms, j'ai développé une forte attirance pour le{" "}
             <strong>front-end</strong> : j'aime tout particulièrement traduire en code des maquettes UI/UX et voir leur
             design prendre vie.
           </p>
 
-          <p className="my-4">
+          <p className="my-4 text-justify">
             Au-delà de mes compétences solides en HTML, CSS et JavaScript, je me spécialise actuellement dans le
             framework <strong>ReactJS</strong> pour créer des interfaces utilisateur dynamiques et modernes.
           </p>
@@ -57,6 +58,7 @@ export default function About() {
               to="/contact"
               color="hover"
               text="Mon CV"
+              icon={<FiDownload className="btn-icon" />}
             />
           </div>
         </div>

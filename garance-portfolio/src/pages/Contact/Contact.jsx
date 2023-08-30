@@ -6,7 +6,7 @@ import { FormContact } from "../../components";
 
 export default function Contact() {
   return (
-    <section className="p-10">
+    <section className="pt-12">
       <div className="contact-container">
         <div className="lg:flex lg:items-center lg:-mx-10">
           <div className="lg:w-1/2 lg:mx-10">
@@ -15,13 +15,13 @@ export default function Contact() {
             {/* <!-- Form --> */}
             <FormContact />
           </div>
-          <div className="ml-20">
+          <div className="">
             <img
               className="hidden object-cover mx-auto rounded-full lg:block shrink-0 w-80 h-80"
               src={profil}
               alt=""
             />
-            <div className="lg:flex lg:flex-col justify-center items-center mt-6 space-y-8 md:mt-8">
+            <div className="flex flex-col justify-center items-center mt-6 space-y-8 md:mt-8">
               <p className="flex items-start -mx-2">
                 <FaRegUser className="w-6 h-6 mx-2 text-martinique-500 dark:text-martinique-400" />
                 <span className="mx-2 ">Garance Defrel</span>
@@ -35,7 +35,7 @@ export default function Contact() {
                 <span className="mx-2">garance.defrel@outlook.com</span>
               </p>
             </div>
-            <div className="lg:flex lg:flex-col items-center mt-6 md:mt-8">
+            <div className="flex flex-col justify-center lg:flex lg:flex-col items-center mt-6 md:mt-8">
               <p>Mes réseaux sociaux</p>
               <div className="flex mt-4 -mx-1.5 ">
                 <Link

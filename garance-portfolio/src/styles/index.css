@@ -9,25 +9,17 @@
     @apply bg-primary-50 text-primary-950 dark:text-primary-50;
   }
   section {
-    @apply bg-primary-50 dark:bg-primary-950;
+    @apply pt-10 px-4 bg-primary-50 dark:bg-primary-950;
   }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
   p,
   span {
-    @apply text-primary-950 dark:text-primary-50;
+    @apply text-sm md:text-lg text-primary-950 dark:text-primary-50;
   }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply font-roboto font-bold text-3xl lg:text-5xl tracking-tight;
+  h1 {
+    @apply text-2xl font-roboto font-semibold text-primary-950 dark:text-primary-50 lg:text-5xl tracking-tighter;
+  }
+  h2 {
+    @apply text-2xl font-roboto font-semibold text-primary-950 dark:text-primary-50 lg:text-4xl;
   }
 }
 /*CSS components*/
@@ -55,13 +47,13 @@
 
   /*Button*/
   .btn-hover {
-    @apply inline-flex items-center justify-center px-5 py-3 mr-3 font-medium text-center rounded-lg bg-primary-400 dark:bg-primary-600 hover:bg-primary-300 focus:ring-4 focus:ring-primary-900 dark:text-primary-50;
+    @apply hover:duration-150 inline-flex items-center justify-center px-5 py-3 mr-3 font-medium text-center rounded-lg bg-primary-400 dark:bg-primary-600 hover:bg-primary-300 focus:ring-4 focus:ring-primary-900 dark:text-primary-50;
   }
   .btn-transparent {
-    @apply inline-flex items-center justify-center px-5 py-3 mr-3 font-medium text-center rounded-lg text-primary-900 border border-primary-400  hover:bg-primary-400 focus:ring-4 focus:ring-primary-100 dark:text-white dark:border-primary-700 dark:hover:bg-primary-400 dark:focus:ring-primary-800;
+    @apply inline-flex items-center justify-center px-5 py-3 mr-3 font-medium text-center rounded-lg text-primary-900 border border-primary-400  hover:bg-primary-400 focus:ring-4 focus:ring-primary-100 dark:text-white dark:border-primary-700 dark:hover:bg-primary-600 dark:focus:ring-primary-800;
   }
   .btn-contact {
-    @apply w-full px-5 py-3 mt-4 text-base font-medium text-center cursor-pointer text-white capitalize transition-colors duration-300 transform bg-primary-400 rounded-md hover:bg-primary-600 focus:outline-none focus:ring focus:ring-primary-300 focus:ring-opacity-50;
+    @apply w-full px-5 py-3 mt-4 text-base font-medium text-center cursor-pointer text-white capitalize transition-colors duration-300 transform bg-primary-600 rounded-md hover:bg-primary-600 focus:outline-none focus:ring focus:ring-primary-300 focus:ring-opacity-50;
   }
   .btn-icon {
     @apply w-5 h-5 ml-2 -mr-1;
@@ -71,25 +63,44 @@
   .icon-color {
     @apply inline-flex justify-center items-center mx-1.5 dark:hover:text-primary-800 text-primary-400 transition-colors duration-300 transform dark:text-primary-50 hover:text-primary-500;
   }
-
   /*Hero Section*/
-  .hero-section {
-    @apply pt-24 mx-auto px-4 items-center lg:flex md:px-8 text-center;
-  }
   .hero-container {
-    @apply space-y-1 flex-1 text-center sm:text-center;
+    @apply text-center;
   }
   .hero-img {
-    @apply w-96 h-96 mx-auto sm:w-10/12;
+    @apply w-96 h-96 mx-auto sm:w-10/12 my-4;
   }
-  .hero-btn-container {
-    @apply pt-4;
+  /*Intro Section*/
+  .intro-grid {
+    @apply grid grid-cols-1 lg:h-screen lg:grid-cols-2;
+  }
+  .intro-block {
+    @apply relative z-10 lg:py-16;
+  }
+  .intro-block-img {
+    @apply relative h-80 lg:h-full;
+  }
+  .intro-img {
+    @apply absolute inset-0 h-full w-full object-cover;
+  }
+  .intro-block-text {
+    @apply relative bg-primary-100 dark:bg-primary-900 shadow-md text-center;
+  }
+  .intro-text {
+    @apply p-8 sm:p-16 lg:p-24 my-6;
+  }
+  /*Skills Section*/
+  .skills-display {
+    @apply flex justify-center;
+  }
+  .skills-grid{
+    @apply md:grid md:grid-cols-2 lg:grid-cols-3 gap-3
   }
   /*Contact Page*/
-  .contact-container{
-    @apply container p-10 mx-auto
+  .contact-container {
+    @apply container p-10 mx-auto;
   }
-  .contact-info{
+  .contact-info {
     @apply lg:flex;
   }
   /*Progress Circle*/
@@ -106,7 +117,7 @@
   }
 
   .progress-circle-bg {
-    @apply text-primary-100 ;
+    @apply text-primary-100;
   }
 
   .progress-circle-fg {
@@ -168,12 +179,10 @@
   }
 
   .cta-container {
-    @apply container flex flex-col items-center py-12 mx-auto text-center;
+    @apply container flex flex-col items-center py-10 mx-auto text-center;
   }
   /* Portfolio */
-  .portfolio-section {
-    @apply bg-primary-50 dark:bg-primary-900;
-  }
+
   .portfolio-title {
     @apply text-2xl font-semibold leading-10 text-primary-800 lg:text-3xl dark:text-primary-50;
   }

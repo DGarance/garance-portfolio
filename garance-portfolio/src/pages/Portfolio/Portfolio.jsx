@@ -5,7 +5,7 @@ import { Card } from "../../components";
 
 export default function Portfolio() {
   return (
-    <section className="portfolio-section">
+    <section>
       <div className="portfolio-container">
         <h1 className="portfolio-title">Portfolio</h1>
         <div className="portfolio-grid">

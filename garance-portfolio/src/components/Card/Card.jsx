@@ -1,5 +1,5 @@
 import React from "react";
-import { FaArrowRight } from "react-icons/fa";
+import { FiArrowRight } from "react-icons/fi";
 import Button from "../Button/Button";
 
 export default function Card({ cover, title, subtitle, description, item }) {
@@ -13,7 +13,7 @@ export default function Card({ cover, title, subtitle, description, item }) {
         />
         <div className="p-3 flex flex-col items-center">
           <h5 className="card-title">{title}</h5>
-          <span className="card-subtitle">{subtitle}</span>
+          <p className="card-subtitle">{subtitle}</p>
           <br />
         </div>
         <p className="card-description p-3">{description}</p>
@@ -23,7 +23,7 @@ export default function Card({ cover, title, subtitle, description, item }) {
           to={item}
           color="transparent"
           text="En savoir plus"
-          icon={<FaArrowRight className="btn-icon" />}
+          icon={<FiArrowRight className="btn-icon" />}
         />
       </div>
     </div>
