@@ -71,24 +71,19 @@
     @apply w-96 h-96 mx-auto sm:w-10/12 my-4;
   }
   /*Intro Section*/
-  .intro-grid {
-    @apply grid grid-cols-1 lg:h-screen lg:grid-cols-2;
-  }
-  .intro-block {
-    @apply relative z-10 lg:py-16;
+  .intro-container {
+    @apply container mx-auto flex px-5 py-24 md:flex-row flex-col items-center;
   }
   .intro-block-img {
-    @apply relative h-80 lg:h-full;
+    @apply lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0;
   }
   .intro-img {
-    @apply absolute inset-0 h-full w-full object-cover;
+    @apply object-cover object-center rounded;
   }
   .intro-block-text {
-    @apply relative bg-primary-100 dark:bg-primary-900 shadow-md text-center;
+    @apply lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col items-center text-center;
   }
-  .intro-text {
-    @apply p-8 sm:p-16 lg:p-24 my-6;
-  }
+
   /*Skills Section*/
   .skills-display {
     @apply flex justify-center;
@@ -100,9 +95,22 @@
   .contact-container {
     @apply container p-10 mx-auto;
   }
-  .contact-info {
-    @apply lg:flex;
+  .contact-img {
+    @apply hidden object-cover mx-auto rounded-full lg:block shrink-0 w-80 h-80;
   }
+  .contact-block-info {
+    @apply flex flex-col justify-center items-center mt-6 space-y-8 md:mt-8;
+  }
+  .contact-text {
+    @apply flex items-start -mx-2;
+  }
+  .contact-icon {
+    @apply w-6 h-6 mx-2 text-primary-600 dark:text-primary-400;
+  }
+  .contact-social {
+    @apply flex flex-col justify-center lg:flex lg:flex-col items-center mt-6 md:mt-8;
+  }
+  
   /*Progress Circle*/
   .progress-circle-container {
     @apply flex items-center;
@@ -133,11 +141,11 @@
   }
 
   /*Project Page*/
-  .project-container{
-    @apply relative isolate overflow-hidden px-6 py-24 lg:overflow-visible 
+  .project-container {
+    @apply relative isolate overflow-hidden px-6 py-24 lg:overflow-visible;
   }
-  .project-grid{
-    @apply mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2 lg:items-start
+  .project-grid {
+    @apply mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2 lg:items-start;
   }
 
   /*About Section*/
@@ -183,8 +191,8 @@
   .cta-container {
     @apply container items-center py-8 mx-auto text-center;
   }
-  .cta-btn{
-    @apply flex mt-6 justify-center items-center
+  .cta-btn {
+    @apply flex mt-6 justify-center items-center;
   }
   /* Portfolio */
 

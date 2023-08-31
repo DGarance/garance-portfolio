@@ -43,30 +43,45 @@ export default function FormContact() {
       onSubmit={sendEmail}>
       <div className="-mx-2 md:items-center md:flex">
         <div className="flex-1 px-2">
-          <label className="form-label">Nom et Prénom</label>
+          <label
+            for="user_name"
+            className="form-label">
+            Nom et Prénom
+          </label>
           <input
             className="form-input"
             type="text"
             name="user_name"
             placeholder="John Doe"
+            id="user_name"
           />
         </div>
         <div className="flex-1 px-2 mt-4 md:mt-0">
-          <label className="form-label">Votre adresse mail</label>
+          <label
+            for="user_email"
+            className="form-label">
+            Votre adresse mail
+          </label>
           <input
             className="form-input"
             type="email"
             name="user_email"
             placeholder="johndoe@example.com"
+            id="user_email"
           />
         </div>
       </div>
       <div className="w-full mt-4">
-        <label className="form-label">Message</label>
+        <label
+          for="message"
+          className="form-label">
+          Message
+        </label>
         <textarea
           className="form-textarea"
           placeholder="Message"
           name="message"
+          id="message"
         />
       </div>
       <input
