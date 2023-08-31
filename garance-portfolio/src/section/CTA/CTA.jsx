@@ -7,7 +7,7 @@ export default function CTA() {
     <section>
       <div className="cta-container">
         <h2>Découvrez mon portfolio et prenez contact avec moi !</h2>
-        <div className="mt-6">
+        <div className="cta-btn">
           <Button
             className="btn-transparent"
             to="/portfolio"

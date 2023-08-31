@@ -7,7 +7,7 @@ export default function Portfolio() {
   return (
     <section>
       <div className="portfolio-container">
-        <h1 className="portfolio-title">Portfolio</h1>
+        <h2>Portfolio</h2>
         <div className="portfolio-grid">
           <div className="flex-1 mt-8 lg:mx-12 lg:mt-0">
             <div className="portfolio-item">
