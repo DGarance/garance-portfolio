@@ -12,7 +12,7 @@ export default function Card({ cover, title, subtitle, description, item }) {
           alt="projet"
         />
         <div className="p-3 flex flex-col items-center">
-          <h5 className="card-title">{title}</h5>
+          <h3 className="card-title">{title}</h3>
           <p className="card-subtitle">{subtitle}</p>
           <br />
         </div>
