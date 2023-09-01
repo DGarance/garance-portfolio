@@ -21,6 +21,9 @@
   h2 {
     @apply text-2xl font-roboto font-semibold text-primary-950 dark:text-primary-50 lg:text-4xl;
   }
+  h3 {
+    @apply text-xl font-roboto font-semibold text-primary-600 dark:text-primary-400 lg:text-3xl;
+  }
 }
 /*CSS components*/
 
@@ -110,7 +113,7 @@
   .contact-social {
     @apply flex flex-col justify-center lg:flex lg:flex-col items-center mt-6 md:mt-8;
   }
-  
+
   /*Progress Circle*/
   .progress-circle-container {
     @apply flex items-center;
@@ -145,7 +148,10 @@
     @apply relative isolate overflow-hidden px-6 py-24 lg:overflow-visible;
   }
   .project-grid {
-    @apply mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2 lg:items-start;
+    @apply mx-auto grid max-w-2xl grid-cols-1 gap-x-8  lg:max-w-none lg:grid-cols-2 lg:items-start;
+  }
+  .project-block-text {
+    @apply lg:col-span-2 lg:col-start-1;
   }
 
   /*About Section*/
@@ -223,7 +229,7 @@
     @apply btn-contact;
   }
   .tag {
-    @apply inline-flex items-center mr-2 rounded-md bg-primary-50 px-4 py-3 text-xs font-medium text-primary-950 ring-1 ring-inset ring-primary-500/10 dark:bg-primary-400 dark:text-primary-50;
+    @apply inline-flex items-center mt-5 mr-3 rounded-md bg-primary-400 px-3 py-3 text-xs font-medium text-primary-950 ring-1 ring-inset ring-primary-500/10 dark:bg-primary-600 dark:text-primary-50;
   }
 
   /*Footer*/

@@ -32,11 +32,23 @@ export default function Footer() {
           />
           <Button
             to="https://www.linkedin.com/in/garance-defrel-3b269b279/"
-            icon={<FaLinkedin className="icon-color w-6 h-6 " />}
+            icon={
+              <FaLinkedin
+                aria-hidden="true"
+                role="img"
+                className="icon-color w-6 h-6 "
+              />
+            }
           />
           <Button
             to="https://twitter.com/Akane9721"
-            icon={<FaTwitter className="icon-color w-6 h-6 " />}
+            icon={
+              <FaTwitter
+                aria-hidden="true"
+                role="img"
+                className="icon-color w-6 h-6 "
+              />
+            }
           />
         </div>
       </div>
