@@ -32,24 +32,24 @@ export default function Projects() {
       <section key={params.id}>
         <div className="project-container ">
           <div className="project-grid ">
-            <div className="lg:col-start-1 lg:row-start-1 lg:mx-auto lg:w-full">
-              <div>
-                <div>
+            <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+              <div className="lg:pr-4">
+                <div className="lg:max-w-lg">
                   <p className="text-base font-semibold ">Parcours Développeur Web OpenClassrooms</p>
-                  <h1 className="my-6 underline text-primary-600 dark:text-primary-400">{work.title}</h1>
-                  <h2 className="my-6 text-primary-600 dark:text-primary-400">Contexte</h2>
+                  <h1 className="mt-2 text-3xl font-bold tracking-tight text-primary-600 sm:text-4xl">{work.title}</h1>
+                  <h2 className="mt-6 text-primary-600 dark:text-primary-400">Contexte</h2>
                   <p>{work.contexte}</p>
-                  <div className="mt-6">
-                    {tags.map((tags) => (
-                      <Tag
-                        key={tags}
-                        tags={tags}></Tag>
-                    ))}
-                  </div>
+                </div>
+                <div className="mt-6">
+                  {tags.map((tags) => (
+                    <Tag
+                      key={tags}
+                      tags={tags}></Tag>
+                  ))}
                 </div>
               </div>
             </div>
-            <div className=" lg:sticky lg:top-16 lg:col-start-2 lg:overflow-hidden">
+            <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
               <img
                 className="w-full h-full max-w-full rounded-xl bg-white shadow-xl ring-1 ring-gray-400/10 sm:w-full"
                 src={work.brand}
@@ -72,8 +72,8 @@ export default function Projects() {
                 />
               </div>
             </div>
-            <div>
-              <div>
+            <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+              <div className="lg:pr-4">
                 <div>
                   <h3 className="my-10">Objectifs d'apprentissage</h3>
                   <p>{work.apprentissage}</p>
