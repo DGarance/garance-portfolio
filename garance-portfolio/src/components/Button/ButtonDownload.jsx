@@ -9,7 +9,7 @@ export default function ButtonDownload() {
       className="btn-hover"
       color="hover"
       to={pdf}
-      download="Example-PDF-document"
+      download="CV-Garance-Defrel"
       target="_blank"
       rel="noreferrer">
       Mon CV

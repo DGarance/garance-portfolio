@@ -1,7 +1,7 @@
 import React from "react";
 import { FaTwitter, FaLinkedin, FaGithub, FaRegEnvelope, FaRegUser, FaAddressCard } from "react-icons/fa";
 import profil from "../../assets/Garance-profil.jpg";
-import { FormContact, Button } from "../../components";
+import { FormContact, ButtonIcon} from "../../components";
 
 export default function Contact() {
   return (
@@ -18,7 +18,7 @@ export default function Contact() {
             <img
               className="contact-img"
               src={profil}
-              alt="Garance"
+              alt="profil de Garance Defrel"
             />
             <div className="contact-block-info">
               <p className="contact-text">
@@ -37,17 +37,35 @@ export default function Contact() {
             <div className="contact-social">
               <p>Mes réseaux sociaux</p>
               <div className="mt-4">
-                <Button
+                <ButtonIcon
                   to="https://github.com/DGarance"
-                  icon={<FaGithub className="icon-color w-6 h-6 " />}
+                  icon={
+                    <FaGithub
+                      aria-hidden="true"
+                      role="img"
+                      className="icon-color w-6 h-6 "
+                    />
+                  }
                 />
-                <Button
+                <ButtonIcon
                   to="https://www.linkedin.com/in/garance-defrel-3b269b279/"
-                  icon={<FaLinkedin className="icon-color w-6 h-6 " />}
+                  icon={
+                    <FaLinkedin
+                      aria-hidden="true"
+                      role="img"
+                      className="icon-color w-6 h-6 "
+                    />
+                  }
                 />
-                <Button
+                <ButtonIcon
                   to="https://twitter.com/Akane9721"
-                  icon={<FaTwitter className="icon-color w-6 h-6 " />}
+                  icon={
+                    <FaTwitter
+                      aria-hidden="true"
+                      role="img"
+                      className="icon-color w-6 h-6 "
+                    />
+                  }
                 />
               </div>
             </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Button } from "../../components";
+import { ButtonIcon } from "../../components";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 export default function Footer() {
   return (
@@ -19,8 +19,7 @@ export default function Footer() {
           <p className="footer-copyright"> © 2023 Copyright Garance Defrel. Tous droits réservés.</p>
         </div>
         <div className="mt-3 space-x-2">
-          <Button
-            title="Link"
+          <ButtonIcon
             to="https://github.com/DGarance"
             icon={
               <FaGithub
@@ -30,7 +29,7 @@ export default function Footer() {
               />
             }
           />
-          <Button
+          <ButtonIcon
             to="https://www.linkedin.com/in/garance-defrel-3b269b279/"
             icon={
               <FaLinkedin
@@ -40,7 +39,7 @@ export default function Footer() {
               />
             }
           />
-          <Button
+          <ButtonIcon
             to="https://twitter.com/Akane9721"
             icon={
               <FaTwitter

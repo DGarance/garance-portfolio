@@ -12,7 +12,7 @@ export default function Hero({ darkMode }) {
         <p>Bonjour 👋! Je suis Garance Defrel</p>
         <h1>
           Développeuse Web
-          <span className="text-2xl lg:text-5xl text-primary-600 dark:text-primary-400"> Fullstack</span>
+          <span className="hero-span"> Fullstack</span>
         </h1>
         <p>En quête de nouvelles opportunités en développement Front-end</p>
         <div>

@@ -221,6 +221,9 @@
   .hero-img {
     @apply w-96 h-96 mx-auto sm:w-10/12 my-4;
   }
+  .hero-span{
+    @apply text-2xl lg:text-5xl text-primary-600 dark:text-primary-400
+  }
   /*Intro Section*/
   .intro-container {
     @apply container mx-auto flex px-5 py-24 md:flex-row flex-col items-center;
