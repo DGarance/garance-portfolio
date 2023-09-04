@@ -20,6 +20,7 @@ export default function Skills({ darkMode }) {
                   dark: skill.dark,
                   light: skill.light,
                 }}
+                alt={skill.alt}
                 darkTheme={darkMode}
               />
             ))}

@@ -2,7 +2,7 @@ import React from "react";
 import { FaAward, FaUserGraduate, FaRegFileCode } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { CardIntro, Button } from "../../components";
-import profil from "../../assets/Garance-profil.jpg";
+import profil from "../../assets/Garance-profil.webp";
 
 export default function About() {
   return (

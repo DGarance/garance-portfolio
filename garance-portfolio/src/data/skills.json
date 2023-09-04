@@ -3,66 +3,77 @@
     "name": "HTML",
     "percentage": 90,
     "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/html5.svg",
-    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/html5.svg"
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/html5.svg",
+    "alt": "icon-htlm"
   },
   {
     "name": "CSS",
     "percentage": 90,
     "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/css3.svg",
-    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/css3.svg"
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/css3.svg",
+    "alt": "icon-css"
   },
   {
     "name": "SASS",
     "percentage": 80,
     "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/sass.svg",
-    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/sass.svg"
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/sass.svg",
+    "alt": "icon-sass"
   },
   {
     "name": "JavaScript",
     "percentage": 70,
     "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/javascript.svg",
-    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/javascript.svg"
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/javascript.svg",
+    "alt": "icon-javascript"
   },
   {
     "name": "Bootstrap",
     "percentage": 50,
     "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/bootstrap.svg",
-    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/bootstrap.svg"
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/bootstrap.svg",
+    "alt": "icon-bootstrap"
   },
   {
     "name": "React",
     "percentage": 50,
     "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/reactjs.svg",
-    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/reactjs.svg"
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/reactjs.svg",
+    "alt": "icon-react"
   },
   {
     "name": "NodeJS",
     "percentage": 60,
     "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/nodejs.svg",
-    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/node-js-svgrepo-com.svg"
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/node-js-svgrepo-com.svg",
+    "alt": "icon-nodejs"
   },
   {
     "name": "Express",
     "percentage": 60,
     "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/express.svg",
-    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/express.svg"
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/express.svg",
+    "alt": "icon-express"
   },
   {
     "name": "MongoDB",
     "percentage": 60,
     "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/mongodb.svg",
-    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/mongodb.svg"
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/mongodb.svg",
+    "alt": "icon-mongoDB"
   },
   {
     "name": "Git/Github",
     "percentage": 75,
     "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/git.svg",
-    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/git.svg"
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/git.svg",
+    "alt": "icon-github"
   },
   {
     "name": "TailwindCSS",
     "percentage": 75,
     "light": "https://tailwind-css.s3.eu-west-3.amazonaws.com/logo/tailwindcss.svg",
-    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/tailwindcss.svg"
+    "dark": "https://tailwind-css.s3.eu-west-3.amazonaws.com/Logo+dark/tailwindcss.svg",
+    "alt": "icon-git"
   }
 ]

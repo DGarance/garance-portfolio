@@ -162,7 +162,7 @@
     @apply w-96 h-auto rounded-lg mx-auto md:max-h-full;
   }
   .about-text {
-    @apply my-4 text-justify;
+    @apply my-4;
   }
   .about-box-grid {
     @apply grid grid-cols-1 md:grid-cols-3 gap-2 mb-8;

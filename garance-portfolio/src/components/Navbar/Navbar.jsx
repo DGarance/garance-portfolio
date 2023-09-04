@@ -60,7 +60,7 @@ export default function Navbar(props) {
             className="w-6 h-6 self-center"
             onClick={props.toggleDarkMode}
             src={props.darkMode ? Sun : Moon}
-            alt=""
+            alt="switch"
           />
         </div>
       </div>

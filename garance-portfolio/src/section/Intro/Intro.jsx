@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "../../components";
-import profil from "../../assets/Garance-profil.jpg";
+import profil from "../../assets/Garance-profil-min.jpg";
 import { FiArrowRight } from "react-icons/fi";
 
 export default function Intro() {

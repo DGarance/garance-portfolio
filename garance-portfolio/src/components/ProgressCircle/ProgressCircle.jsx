@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProgressCircle = ({ skillName, percentage, icons, darkTheme }) => {
+const ProgressCircle = ({ skillName, percentage, icons, darkTheme, alt }) => {
   const circumference = 20 * 2 * Math.PI;
   const dashoffset = circumference - (percentage / 100) * circumference;
 
@@ -37,7 +37,7 @@ const ProgressCircle = ({ skillName, percentage, icons, darkTheme }) => {
         <img
           className="progress-circle-img"
           src={darkTheme ? icons.dark : icons.light}
-          alt="icon"
+          alt={alt}
         />
       </div>
       <div className="progress-circle-text">

@@ -25,15 +25,12 @@ export default function Hero({ darkMode }) {
         </div>
         <div>
           <Button
-            className="btn-hover"
             to={pdf}
-            download="CV-Garance-Defrel"
             color="hover"
             text="Mon CV"
             icon={<FiDownload className="btn-icon" />}
           />
           <Button
-            className="btn-transparent"
             to="/portfolio"
             color="transparent"
             text="Mon portfolio"
