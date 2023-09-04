@@ -18,7 +18,7 @@ export default function Card({ cover, title, subtitle, description, item }) {
         </div>
         <p className="card-description p-3">{description}</p>
       </div>
-      <div className="button-container">
+      <div className="card-btn-container">
         <Button
           to={item}
           color="transparent"

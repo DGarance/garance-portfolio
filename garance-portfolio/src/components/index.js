@@ -1,4 +1,5 @@
 export { default as Button } from "./Button/Button";
+export { default as ButtonDownload } from "./Button/ButtonDownload";
 export { default as Card } from "./Card/Card";
 export { default as CardIntro } from "./Card/CardIntro";
 export { default as Footer } from "./Footer/Footer";

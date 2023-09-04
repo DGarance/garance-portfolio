@@ -1,9 +1,8 @@
 import React from "react";
 import heroImg from "../../assets/programmer.svg";
 import heroImgDark from "../../assets/programmer-dark.svg";
-import { Button } from "../../components";
-import { FiDownload } from "react-icons/fi";
-import pdf from "../../assets/CV-Defrel-Garance.pdf";
+import { Button, ButtonDownload } from "../../components";
+
 
 export default function Hero({ darkMode }) {
   const heroImage = darkMode ? heroImgDark : heroImg;
@@ -24,12 +23,7 @@ export default function Hero({ darkMode }) {
           />
         </div>
         <div>
-          <Button
-            to={pdf}
-            color="hover"
-            text="Mon CV"
-            icon={<FiDownload className="btn-icon" />}
-          />
+          <ButtonDownload />
           <Button
             to="/portfolio"
             color="transparent"

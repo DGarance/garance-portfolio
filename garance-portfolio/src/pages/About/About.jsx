@@ -1,7 +1,6 @@
 import React from "react";
 import { FaAward, FaUserGraduate, FaRegFileCode } from "react-icons/fa";
-import { FiDownload } from "react-icons/fi";
-import { CardIntro, Button } from "../../components";
+import { CardIntro, Button, ButtonDownload } from "../../components";
 import profil from "../../assets/Garance-profil.webp";
 
 export default function About() {
@@ -53,12 +52,7 @@ export default function About() {
               text="Me contacter"
               className="mb-6"
             />
-            <Button
-              to="/contact"
-              color="hover"
-              text="Mon CV"
-              icon={<FiDownload className="btn-icon" />}
-            />
+            <ButtonDownload />
           </div>
         </div>
       </div>
