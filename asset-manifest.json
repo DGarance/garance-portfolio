@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/garance-portfolio/static/css/main.26dfdb6d.css",
+    "main.js": "/garance-portfolio/static/js/main.5e5072e9.js",
+    "static/media/Garance-profil.jpg": "/garance-portfolio/static/media/Garance-profil.0e450a7e0611f8127b31.jpg",
+    "static/media/Garance-profil.webp": "/garance-portfolio/static/media/Garance-profil.9c6a1500b0dd4c4cfefb.webp",
+    "static/media/CV-Defrel-Garance.pdf": "/garance-portfolio/static/media/CV-Defrel-Garance.5c2c3e611804af1b1ea4.pdf",
+    "static/media/programmer-test-dark.svg": "/garance-portfolio/static/media/programmer-test-dark.a0500a37b9b67d45f3f623ad47252e1f.svg",
+    "static/media/programmer-test.svg": "/garance-portfolio/static/media/programmer-test.c6b4b95eea09f13e640aaeee42697c48.svg",
+    "static/media/Garance-profil-min.jpg": "/garance-portfolio/static/media/Garance-profil-min.cca931e9f48d4e507145.jpg",
+    "static/media/moon.svg": "/garance-portfolio/static/media/moon.e74872b37ec7cde2a237bb5a06ddcd9e.svg",
+    "static/media/sun.svg": "/garance-portfolio/static/media/sun.127c0bc91ac28ca66f8147acae227981.svg",
+    "index.html": "/garance-portfolio/index.html",
+    "main.26dfdb6d.css.map": "/garance-portfolio/static/css/main.26dfdb6d.css.map",
+    "main.5e5072e9.js.map": "/garance-portfolio/static/js/main.5e5072e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26dfdb6d.css",
+    "static/js/main.5e5072e9.js"
+  ]
+}
