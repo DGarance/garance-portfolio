@@ -13,13 +13,13 @@ export default function Portfolio() {
             <div className="portfolio-item">
               {projects.map((item, index) => (
                 <div key={index}>
-                  <Link to={`/portfolio/${item.id}`}>
+                  <Link to={`/garance-portfolio/portfolio/${item.id}`}>
                     <Card
                       cover={item.cover}
                       title={item.title}
                       subtitle={item.subtitle}
                       description={item.description}
-                      item={`/portfolio/${item.id}`}
+                      item={`/garance-portfolio/portfolio/${item.id}`}
                     />
                   </Link>
                 </div>

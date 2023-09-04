@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom";
-import { Footer, Navbar} from "./components";
+import { Footer, Navbar } from "./components";
 import { Home, About, Projects, Error, Contact, Portfolio } from "./pages";
 
 function App() {
@@ -17,31 +17,31 @@ function App() {
       />
       <Routes>
         <Route
-          path="/"
+          path="/garance-portfolio"
           element={<Home darkMode={darkMode} />}
         />
         <Route
-          path="/about"
+          path="/garance-portfolio/about"
           element={<About />}
         />
         <Route
-          path="/portfolio"
+          path="/garance-portfolio/portfolio"
           element={<Portfolio />}
         />
         <Route
-          path="/portfolio/:id"
+          path="/garance-portfolio/portfolio/:id"
           element={<Projects />}
         />
         <Route
-          path="/contact"
+          path="/garance-portfolio/contact"
           element={<Contact />}
         />
         <Route
-          path="*"
+          path="/garance-portfolio/*"
           element={<Error />}
         />
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

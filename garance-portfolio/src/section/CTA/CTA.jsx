@@ -10,12 +10,12 @@ export default function CTA() {
         <div className="cta-btn">
           <Button
             className="btn-transparent"
-            to="/portfolio"
+            to="/garance-portfolio/portfolio"
             color="transparent"
             text="Mon portfolio"
           />
           <Button
-            to="/contact"
+            to="/garance-portfolio/contact"
             className="btn-hover"
             color="hover"
             text="Contactez-moi"

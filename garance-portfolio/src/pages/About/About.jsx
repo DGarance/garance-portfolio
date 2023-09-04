@@ -47,7 +47,7 @@ export default function About() {
           </p>
           <div className="flex justify-center  md:justify-normal">
             <Button
-              to="/contact"
+              to="/garance-portfolio/contact"
               color="transparent"
               text="Me contacter"
               className="mb-6"

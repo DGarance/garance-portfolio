@@ -22,7 +22,7 @@ export default function Intro() {
           </p>
           <div className="flex justify-center">
             <Button
-              to="/about"
+              to="/garance-portfolio/about"
               className="btn-hover items-center"
               color="hover"
               text="En savoir plus"

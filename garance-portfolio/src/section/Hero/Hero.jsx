@@ -1,8 +1,7 @@
 import React from "react";
-import heroImg from "../../assets/programmer.svg";
-import heroImgDark from "../../assets/programmer-dark.svg";
+import heroImg from "../../assets/programmer-test.svg";
+import heroImgDark from "../../assets/programmer-test-dark.svg";
 import { Button, ButtonDownload } from "../../components";
-
 
 export default function Hero({ darkMode }) {
   const heroImage = darkMode ? heroImgDark : heroImg;
@@ -25,7 +24,7 @@ export default function Hero({ darkMode }) {
         <div>
           <ButtonDownload />
           <Button
-            to="/portfolio"
+            to="/garance-portfolio/portfolio"
             color="transparent"
             text="Mon portfolio"
           />

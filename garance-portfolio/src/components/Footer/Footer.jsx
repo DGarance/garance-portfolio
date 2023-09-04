@@ -9,7 +9,7 @@ export default function Footer() {
         <div>
           <Link
             className="footer-link"
-            to="/"
+            to="/garance-portfolio/"
             aria-label="Brand">
             Garance Defrel
           </Link>

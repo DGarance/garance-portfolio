@@ -35,22 +35,22 @@ export default function Navbar(props) {
       <div className={`navbar-toggle ${isOpen ? "block" : "hidden"} lg:flex lg:items-center lg:w-auto `}>
         <div className="navbar-links">
           <Link
-            to="/"
+            to="/garance-portfolio/"
             className="navbar-link">
             Accueil
           </Link>
           <Link
-            to="/about"
+            to="/garance-portfolio/about"
             className="navbar-link">
             A propos de moi
           </Link>
           <Link
-            to="/portfolio"
+            to="/garance-portfolio/portfolio"
             className="navbar-link ">
             Portfolio
           </Link>
           <Link
-            to="/contact"
+            to="/garance-portfolio/contact"
             className="navbar-link">
             Contact
           </Link>
