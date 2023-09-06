@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/garance-portfolio/static/css/main.fbc9911f.css",
+    "main.css": "/garance-portfolio/static/css/main.779717ee.css",
     "main.js": "/garance-portfolio/static/js/main.5d58c108.js",
     "static/media/Garance-profil.jpg": "/garance-portfolio/static/media/Garance-profil.0e450a7e0611f8127b31.jpg",
     "static/media/Garance-profil.webp": "/garance-portfolio/static/media/Garance-profil.9c6a1500b0dd4c4cfefb.webp",
@@ -11,11 +11,11 @@
     "static/media/moon.svg": "/garance-portfolio/static/media/moon.e74872b37ec7cde2a237bb5a06ddcd9e.svg",
     "static/media/sun.svg": "/garance-portfolio/static/media/sun.127c0bc91ac28ca66f8147acae227981.svg",
     "index.html": "/garance-portfolio/index.html",
-    "main.fbc9911f.css.map": "/garance-portfolio/static/css/main.fbc9911f.css.map",
+    "main.779717ee.css.map": "/garance-portfolio/static/css/main.779717ee.css.map",
     "main.5d58c108.js.map": "/garance-portfolio/static/js/main.5d58c108.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbc9911f.css",
+    "static/css/main.779717ee.css",
     "static/js/main.5d58c108.js"
   ]
 }
